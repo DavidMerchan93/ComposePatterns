@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.davidmerchan.composepatterns.patterns.compound_component.UserProfileScreen
 import com.davidmerchan.composepatterns.patterns.slot_pattern.ProfileScreen
+import com.davidmerchan.composepatterns.patterns.wrapper.ValidatorFormScreen
 import com.davidmerchan.composepatterns.ui.theme.ComposePatternsTheme
 
 class MainActivity : ComponentActivity() {
@@ -21,7 +22,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ComposePatternsTheme {
-                UserProfileScreen()
+                ValidatorFormScreen()
             }
         }
     }
