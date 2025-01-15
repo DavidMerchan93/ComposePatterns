@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.davidmerchan.composepatterns.patterns.builder_pattern.DynamicFormScreen
 import com.davidmerchan.composepatterns.patterns.compound_component.UserProfileScreen
+import com.davidmerchan.composepatterns.patterns.decorator_pattern.DecoratorCounterScreen
 import com.davidmerchan.composepatterns.patterns.slot_pattern.ProfileScreen
 import com.davidmerchan.composepatterns.patterns.state_hoisting.CounterScreen
 import com.davidmerchan.composepatterns.patterns.wrapper.ValidatorFormScreen
@@ -24,7 +25,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ComposePatternsTheme {
-                CounterScreen()
+                DecoratorCounterScreen()
             }
         }
     }
